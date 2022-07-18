@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/NV_icon-Web.png" type="image/x-icon">
+    <title>Noemi's Studio</title>
+</head>
+
+<body>
+
+    <div class="header">
+        <nav id="navbar">
+            <img src="img/White_logo-FrontN.png" class="logo">
+            <ul id="menu">
+                <li>HOME</li>
+                <li>ABOUT</li>
+                <li>SERVICES</li>
+                <li>PRODUCT</li>
+                <li>CONTACT</li>
+            </ul>
+        </nav>
+    </div>
+
+    <p class="text">
+        Como texto literario se denomina todo aquel texto en el que se reconocen las características propias de algún
+        género literario, como la narrativa, la poesía, el teatro o el ensayo.
+        Desde el punto de vista de la Lingüística, el texto literario es aquel donde predomina la función poética del
+        lenguaje, es decir, donde la composición del texto atiende fundamentalmente a la forma en sí del lenguaje, a su
+        belleza y a su capacidad para recrearnos mundos imaginarios.
+        El texto literario, en este sentido, recrea mundos de ficción, bien se trate de la relación de sucesos
+        imaginarios, bien de ideas, conceptos o argumentos. Un texto literario trasmite sensaciones, emociones,
+        sentimientos, ideas y pensamientos al lector.
+        Los textos literarios presentan naturalezas distintas dependiendo del género a que pertenezcan. Así, una
+        narración o un ensayo se componen fundamentalmente en prosa, mientras que la poesía se glosa en versos.
+    </p>
+    <p class="text">
+        Características de los textos literarios
+        Libertad creativa plena en cuanto a la composición: la forma, el estilo y el tono del texto (puede ser triste,
+        alegre, amargo, irónico, festivo);
+        Empleo de figuras literarias, como la metáfora, la metonimia o el símil, para enriquecer el texto y avivar la
+        imaginación del lector;
+        Manejo de los recursos discursivos como la narración, la descripción, el diálogo, la exposición o la
+        argumentación, para conducir el texto.
+        Naturaleza ficticia de que está hecho el texto literario.
+        Ejemplos de textos literarios
+        Cuento
+        El cuento titulado “El Aleph”, autoría del escritor argentino Jorge Luis Borges:
+    </p>
+    <p class="text">
+        La candente mañana de febrero en que Beatriz Viterbo murió, después de una imperiosa agonía que no se rebajó un
+        solo instante ni al sentimentalismo ni al miedo, noté que las carteleras de fierro de la Plaza Constitución
+        habían renovado no sé qué aviso de cigarrillos rubios; el hecho me dolió, pues comprendí que el incesante y
+        vasto universo ya se apartaba de ella y que ese cambio era el primero de una serie infinita.
+
+        Poesía
+        El poema “Los heraldos negros”, del poeta César Vallejo:
+    </p>
+    <p class="text">
+        “Hay golpes en la vida, tan fuertes... ¡Yo no sé!
+        Golpes como del odio de Dios; como si ante ellos,
+        la resaca de todo lo sufrido
+        se empozara en el alma... ¡Yo no sé!”
+    </p>
+
+    <p class="text">
+        Texto literario y texto no literario
+        Podemos diferenciar la naturaleza de un texto estableciendo una oposición entre los textos literarios y los
+        textos no literarios.
+
+        Los textos no literarios comprenden una inmensa variedad de escritos que están regidos por otras funciones, como
+        la informativa, la referencial, o la conativa. Son movidos por otras intenciones, como trasmitir información,
+        divulgar conocimiento, establecer normativas, hacer publicidad, etc. Un manual de instrucciones, un artículo
+        periodístico, una monografía, un artículo académico son ejemplos de textos no literarios.
+
+        Los textos literarios son aquellos que se adecúan a la naturaleza textual de géneros como la narrativa, la
+        poesía, el teatro o el ensayo, donde predomina la función estética del lenguaje.
+
+        También te puede interesar Características de la literatura.
+
+        Texto literario y texto informativo
+        Como texto informativo se conoce aquel cuya función predominante es la informativa, es decir, comunicar,
+        trasmitir o explicar una información. La función del lenguaje que está activa en un texto informativo es la
+        referencial o representativa, es decir, aquella donde el emisor elabora mensajes que están relacionados con su
+        entorno o con objetos externos al acto comunicativo. Es el tipo de texto usual en los medios informativos, como
+        los periódicos o las revistas.
+
+        Se diferencia del texto literario que no es movido por la necesidad de informar, sino que se enfoca en el
+        mensaje en sí, y en que este sea construido con belleza para trasmitir sensaciones, sentimientos y emociones.
+
+    </p>
+
+
+
+    <script>
+        var navbar = document.getElementById("navbar");
+        var menu = document.getElementById("menu");
+
+        window.onscroll = function () {
+            if (window.pageYOffset >= menu.offsetTop) {
+                navbar.classList.add("sticky");
+            }
+            else {
+                navbar.classList.remove("sticky");
+            }
+        }
+    </script>
+
+
+</body>
+
+</html>
